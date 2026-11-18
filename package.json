@@ -1,0 +1,46 @@
+{
+  "name": "faculty-prep-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8888",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "node --import tsx --test src/lib/**/*.test.ts"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.11.0",
+    "docx": "latest",
+    "jsonrepair": "^3.14.0",
+    "jszip": "^3.10.1",
+    "lucide-react": "latest",
+    "next": "latest",
+    "pptxgenjs": "^4.0.1",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "latest",
+    "playwright": "^1.60.0",
+    "tsx": "latest",
+    "typescript": "latest"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "current"
+      ],
+      "cpu": [
+        "current",
+        "x64",
+        "arm64"
+      ]
+    }
+  }
+}
